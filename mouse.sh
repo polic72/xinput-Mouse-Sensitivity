@@ -49,9 +49,5 @@ fi
 #Set sensitivity:
 xinput --set-prop $D_ID $P_ID $3
 
-#echo "$PROPS"
-#echo "$FOUND_PROP"
-#echo "$PROP_REGEX"
-echo "$P_ID"
 
-#echo "$DEVICES"
+echo "Set the $1 pointer to $3 sensitivity."
